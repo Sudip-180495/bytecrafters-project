@@ -1,0 +1,585 @@
+@media (max-width:769px) {
+    .nav-banner-container-logo {
+        width: 110px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .nav-content-Title {
+        font-size: 0.9em;
+    }
+
+    .nav-content-bttn {
+        width: 120px;
+        height: 45px;
+    }
+
+    .drk-mode-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 600px;
+        /* background-color: blueviolet;    */
+    }
+
+    .banner-content {
+        width: 50%;
+        height: 500px;
+        /* background-color: rgb(89, 60, 175); */
+    }
+
+    .banner-content-title {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .banner-content-para {
+        font-size: 0.9em;
+        margin: 0px 10px;
+    }
+
+    .banner-content-bttn {
+        width: 120px;
+        height: 47px;
+    }
+
+    .baneer-img {
+        width: 50%;
+        height: 600px;
+        /* background-color: rgb(0, 0, 0); */
+    }
+
+    .banner-img-cube {
+        width: 80%;
+        height: 500px;
+    }
+
+    /* AboutUs-Section----------- */
+
+    .aboutus-title {
+        font-size: 3em;
+    }
+
+    .aboutus-content-in1-img {
+        width: 100px;
+        height: 100px;
+        /* border-radius: 50%; */
+    }
+
+    .aboutus-content-title {
+        font-weight: 500;
+        font-size: 1.4em;
+    }
+
+    .aboutus-content-para {
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .aboutus-section-button {
+        width: 125px;
+        height: 50px;
+    }
+
+    /* We-Section------------------------ */
+
+    .we-content-title {
+        font-weight: 900;
+        font-size: 3em;
+    }
+
+    .we-section {
+        width: 100%;
+        height: 800px;
+        background-color: var(--primary-color);
+    }
+
+    .we-container {
+        width: 90%;
+        height: 90%;
+        background-color: var(--secondary-color);
+    }
+
+    .wecontent1 {
+        width: 100%;
+        height: 100px;
+        /* background-color: yellow; */
+    }
+
+    .wecontent {
+        width: 100%;
+        height: 600px;
+        /* background-color: yellowgreen; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .we-content-box1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .we-content-box2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .we-content-box3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .we-content-box4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .we-content-box5 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .we-content-box6 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .we-content-heading {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    /* What-Section-------- */
+
+    .what-content-hdng {
+        text-align: center;
+    }
+
+    .what-content-para {
+        font-weight: 500;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    /* Wrk-section--------- */
+
+    .wrk-section {
+        width: 100%;
+        height: 700px;
+    }
+
+    .wrk-section-title {
+        font-size: 3em;
+    }
+
+    .wrk-section-content {
+        width: 100%;
+        height: 500px;
+        /* background-color: brown; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    .wrk-content-box {
+        width: 200px;
+        height: 250px;
+    }
+
+    .wrk-content-img {
+        justify-content: center;
+    }
+
+    .wrk-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .wrk-content-hd {
+        justify-content: center;
+    }
+
+    .wrk-title {
+        text-align: center;
+    }
+
+    .wrk-content-p {
+        justify-content: center;
+    }
+
+    .wrk-para {
+        text-align: center;
+    }
+
+    /* Client-Section-------------------- */
+
+    .clnt-section-title {
+        font-size: 3em;
+    }
+
+    .clnt-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .clnt-para {
+        font-size: 0.9em;
+    }
+
+    .clnt-name {
+        font-size: 1.8em;
+    }
+
+    /* Blog-Section-------------- */
+
+    .blog-title {
+        font-size: 3em;
+    }
+
+    .blog-section-image {
+        width: 90%;
+        height: 90%;
+    }
+
+    .blog-section-para {
+        font-size: 0.8em;
+    }
+
+    /* Footer-section */
+
+    footer {
+        width: 100%;
+        height: 1560px;
+        background-color: var(--primary-color);
+    }
+
+    .ftr-container {
+        width: 90%;
+        height: 90%;
+        background-color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* for hamburger---- */
+
+    .line {
+        width: inherit;
+        height: 0px;
+        background-color: black;
+        border-radius: 25px;
+        transform-origin: right;
+        transition: transform .5s;
+    }
+
+    .secondLine {
+        height: 0px;
+    }
+}
+
+
+
+/* For Mobile View 360 */
+
+@media (max-width:431px) {
+    .nav-content-Title {
+        display: none;
+    }
+
+    .nav-content-bttn {
+        display: none;
+    }
+
+    .nav-banner-container-logo {
+        width: 139px;
+        height: 135px;
+        margin-left: 146px;
+    }
+
+    .drk-mode-img {
+        width: 20px;
+        height: 20px;
+        margin-left: 215px;
+    }
+
+    /* .ftr-image {
+        width: 400%;
+        height: 140%;
+    } */
+
+
+
+    .navigationItems {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 34px;
+        right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 100;
+        left: 20px;
+    }
+
+    .line {
+        width: inherit;
+        height: 3px;
+        background-color: rgb(252, 6, 6);
+        border-radius: 25px;
+        transform-origin: right;
+        transition: transform .5s;
+    }
+
+    .secondLine {
+        height: 3px;
+    }
+
+    .mainNavigation {
+        height: 15vh;
+        width: 100%;
+        background: #3a6182;
+        position: absolute;
+        top: -15vh;
+        z-index: 50;
+        transition: top .4s;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: black;
+        letter-spacing: 1px;
+        /* padding: 5px 10px; */
+        display: block;
+        position: relative;
+    }
+
+    /* banner-section-------------- */
+
+    .banner {
+        width: 100%;
+        height: 893px;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .nav-banner {
+        width: 100%;
+        height: 1000px;
+        background-color: var(--primary-color);
+        
+    }
+    
+    .nav-banner-container {
+        width: 90%;
+        height: 1000px;
+        /* background-image: url("../img/1634195286334.png"); */
+        /* background-size: 100% 100%; */
+        background-color: var(--primary-color);
+    }
+
+    .banner-content-title {
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .banner-content-para {
+        font-size: 0.8em;
+        margin: 0px -60px;
+    }
+
+    .banner-content-bttn {
+        width: 120px;
+        height: 47px;
+    }
+
+    .baneer-img {
+        width: 50%;
+        height: 600px;
+        /* background-color: rgb(0, 0, 0); */
+    }
+
+    .banner-img-cube {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* About us Section------------------------------ */
+
+    .aboutus-section {
+        width: 100%;
+        height: 1200px;
+    }
+
+    .aboutus-content {
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+    }
+
+    .aboutus-content-in1-img {
+        width: 114px;
+        height: 110px;
+        /* border-radius: 50%; */
+    }
+
+    .aboutus-title {
+        font-size: 2.5em;
+    }
+
+    .aboutus-content-para {
+        text-align: center;
+        font-size: 0.9em;
+        margin: 0px 40px;
+    }
+
+    /* We do section------------------------------------- */
+
+    .we-section {
+        width: 100%;
+        height: 1800px;
+    }
+
+    .wecontent {
+        width: 100%;
+        height: 1500px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .we-content-title {
+        font-size: 2.5em;
+    }
+
+    .we-content-heading {
+        font-size: 1em;
+    }
+
+    .we-content-hdng1{
+        font-size: 0.8em;
+    }
+
+    /* What-section---------------- */
+
+    .what-section {
+        height: 1000px;
+    }
+
+    .what-container {
+        flex-direction: column;
+    }
+
+    .what-content-title {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .what-content-hdng {
+        font-size: 1.6em;
+    }
+
+    .what-image-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    /* Work-section------------------ */
+
+    .wrk-section {
+        height: 1800px;
+    }
+
+    .wrk-section-content {
+        width: 100%;
+        height: 1500px;
+        flex-direction: row;
+    }
+
+    .wrk-section-title {
+        font-size: 2.5em;
+    }
+
+    .wrk-title{
+        font-size: 1em;
+    }
+
+    .wrk-para {
+        font-size: 0.8em;
+    }
+
+    /* Client-Section-------------------- */
+
+    .client-section {
+        width: 100%;
+        height: 1400px;
+    }
+
+    .clnt-section-title {
+        font-size: 2.5em;
+    }
+
+    .clnt-section-content {
+        height: 1300px;
+        flex-direction: column;
+    }
+
+    .clnt-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .clnt-para {
+        font-size: 0.8em;
+        margin: 0px 50px;
+    }
+
+    .clnt-name {
+        font-size: 1.4em;
+    }
+
+    /* Blog-Section-------------- */
+
+    .blog-section {
+        width: 100%;
+        height: 1430px;
+    }
+
+    .blog-content {
+        width: 100%;
+        height: 1300px;
+        flex-direction: column;
+    }
+
+    .blog-title {
+        font-size: 2.5em;
+    }
+
+    .blog-section-image {
+        width: 60%;
+        height: 90%;
+    }
+
+    .blog-section-para {
+        margin: 10px 70px;
+    }
+
+    .rght-stmnt{
+        text-align: center;
+    }
+
+    /* Ftr-section */
+
+    .ftr-para {
+        margin: 0px 50px;
+    }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/responsiv.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Burned&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ByteCrafters</title>
+    <link rel="icon" type="" href="./img/Web-Logo-3-Final.png">
+</head>
+
+<body>
+    <div class="nav-banner">
+        <div class="nav-banner-container">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./img/Web-Logo-3-Final.png" alt="" class="nav-banner-container-logo">
+                </div>
+                <div class="nav-content">
+                    <h2 class="nav-content-Title"><a class="nav-content-Title" href="./index.html">Home</a></h2>
+                    <h2 class="nav-content-Title"><a class="nav-content-Title" href="./about.html">About</a></h2>
+                    <h2 class="nav-content-Title"><a class="nav-content-Title" href="./services.html">Services</a></h2>
+                    <h2 class="nav-content-Title"><a class="nav-content-Title" href="./blog.html">Blog</a></h2>
+                    <h2 class="nav-content-Title"><a class="nav-content-Title" href="./team.html">Team</a></h2>
+                    <a href="./index.html"><button class="nav-content-bttn">Go to Home</button></a>
+                    <img src="./img/moon.png" alt="" class="drk-mode-img" id="icon">
+                </div>
+            </div>
+            <div class="banner-contact">
+                <div class="banner-content">
+                    <h1 class="banner-content-title-contact">Contact Us</h1>
+                    <p class="banner-content-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dicta
+                        expedita totam cumque ullam, accusantium velit consectetur praesentium veniam incidunt. Ullam,
+                        nisi ut. Neque veritatis doloribus molestiae repellendus, dolores eveniet.</p>
+                    <button class="banner-content-bttn">+1 345 244 56962</button>
+                </div>
+                <div class="baneer-img">
+                    <div class="banner-img-cube-contact">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-container">
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0622732494!2d-74.30932777004287!3d40.697019286161634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1716367180821!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <i class="fas fa-paper-plane"></i>
+
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone No.</label>
+                        <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatePhone()">
+                        <span id="phone-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email Id</label>
+                        <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()">
+                        <span id="email-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Your Message</label>
+                        <textarea rows="5" placeholder="Enter your message" id="contact-message"
+                            onkeyup="validateMessage()"></textarea>
+                        <span id="message-error"></span>
+                    </div>
+
+                    <button onclick="return validateForm()">Submit</button>
+                    <span id="submit-error"></span>
+                    <!-- <button>Reset</button> -->
+                </form>     
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer-section-------- -->
+
+    <footer>
+        <div class="ftr-container">
+            <div class="ftr-section-logo">
+                <div class="ftr-logo">
+                    <img src="./img/Web-Logo-3-1-2png.png" alt="" class="ftr-image">
+                </div>
+                <div class="ftr-p">
+                    <p class="ftr-para">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+                        libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
+                        vitae risus tristique posuere.</p>
+                </div>
+                <div class="ftr-icon">
+                    <a href=""><img src="./img/asset 46.svg" alt="" class="ftr-icon-img"></a>
+                    <a href=""><img src="./img/asset 47.svg" alt="" class="ftr-icon-img"></a>
+                    <a href=""><img src="./img/asset 48.svg" alt="" class="ftr-icon-img"></a>
+                    <a href=""><img src="./img/asset 49.svg" alt="" class="ftr-icon-img"></a>
+                </div>
+            </div>
+            <div class="ftr-section-qk">
+                <div class="ftr-section-qk-hdng">
+                    <h2 class="ftr-qk-title">Quick Links</h2>
+                </div>
+                <div class="ftr-section-qk-links">
+                    <h4 class="ftr-qk-links-menu"><a class="" href="">Home</a></h4>
+                    <h4 class="ftr-qk-links-menu"><a class="" href="">About</a></h4>
+                    <h4 class="ftr-qk-links-menu"><a class="" href="">Services</a></h4>
+                    <h4 class="ftr-qk-links-menu"><a class="" href="">Blog</a></h4>
+                    <h4 class="ftr-qk-links-menu"><a class="" href="">Team</a></h4>
+                </div>
+            </div>
+            <div class="ftr-section-cntct">
+                <div class="ftr-section-cntct-hdng">
+                    <h2 class="ftr-qk-title">Contact Info</h2>
+                </div>
+                <div class="ftr-section-cntct-info">
+                    <div class="ftr-cntct-box">
+                        <img src="./img/asset 50.png" alt="" class="ftr-cntct-box-img">
+                        <h3 class="ftr-cntct-box-hdng">+1 046 244 3912</h3>
+                    </div>
+                    <div class="ftr-cntct-box">
+                        <img src="./img/asset 51.png" alt="" class="ftr-cntct-box-img">
+                        <h3 class="ftr-cntct-box-hdng">+1 345 244 56962</h3>
+                    </div>
+                    <div class="ftr-cntct-box">
+                        <img src="./img/asset 52.png" alt="" class="ftr-cntct-box-img">
+                        <h3 class="ftr-cntct-box-hdng">youremail@fly.com</h3>
+                    </div>
+                    <div class="ftr-cntct-box">
+                        <img src="./img/asset 53.png" alt="" class="ftr-cntct-box-img">
+                        <h3 class="ftr-cntct-box-hdng">34th floor New York, USA</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="rght-section">
+        <div class="rght-container">
+            <h3 class="rght-stmnt" id="rght-stmt">© Copyright 2024. All rights reserved. Sky Web Solution Limited.</h3>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
